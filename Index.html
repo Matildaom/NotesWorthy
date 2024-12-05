@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotesWorthy | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  
+</head>
+<body>
+  <header>
+    <h1 style="font-size: xx-large;">Welcome to </h1>
+    <h1> NotesWorthy<img src="images/purple.avif" alt="purple soundwaves" height="50" width=20%></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  
+ 
+  
+ 
+  <div id="popupModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>New Offers</h2>
+      <ul>
+        <li>Get a 20% discount on all services for new clients this month.</li>
+        <li>Get a 2% discount on promotional services when you sign up for our newsletter</li>
+      </ul>
+      
+    </div>
+  </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!--First carousel - molly?-->
+      <div class="carousel-item active position-relative">   
+        <img src="images/liveMusic.jpg" class="d-block w-100" alt="Crowded live music venue">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Live Music</h1>
+          <p>Incomparable energy of live performances.</p>
+        </div>
+  
+      </div>
+      <!--Second carousel - live music-->
+      <div class="carousel-item position-relative">
+        <img src="images/molly3.jpg" class="d-block w-100 img-fluid" style="object-fit: contain;" alt="Musician playing guitar">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Artist at Work</h1>
+          <p>Discover the passion behind every note.</p>
+        </div>
+      </div>
+      <!--third carousel - recording studio-->
+      <div class="carousel-item position-relative">
+        <img src="images/recordingStudio.jpg" class="d-block w-100" alt="Recording studio">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Recording Studio</h1>
+          <p>Where the magic of music comes to life.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <main>
+    <section style="text-align: center;">
+      <h2 style="font-style: italic;">Struggling for your art so you don't have to</h2>
+      <img src="images/purple.avif" alt="purple soundwaves" height="200" width=100% /> 
+      <p style="">We provide the tools and expertise to take your music career to the next level.</p>
+      <button id="openModal">Special Offers</button>
+    </section>
+  </main>
+
+  <main>
+    <section style="text-align: center;">
+    
+      <h2>Molly O' Mahony</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/J7M0cK6FcwQ?si=EvcQBPn_21CLkTpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p style="font-style: italic;">"Utmost professionality from those at NoteWorthy, they really cater to a musicians every need"</p>
+    </section>
+  </main>
+  <main>
+    <section style="text-align: center;">
+      <h2>First Class & Coach</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/NmpYjNhDaoY?si=TyzgOA_2DhLSWK3n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p style="font-style: italic;">"If you're looking for a company who knows the business inside out, it's NotesWorthy. They're with you every step of the way getting it done!"</p>
+    </section>
+  </main>
+  <main>
+    <section style="text-align: center;">
+      <h2>Laura Ryder Ampersand</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7kIiJdwfPME?si=LyHef35kmUoACVCe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p style="font-style: italic;">"NotesWorthy made releasing my album possible. Without them I think I'd still be at the 'playing songs in my bedroom' stage. They're musicians working tirelessly for musicians"</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Notesworthy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
